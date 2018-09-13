@@ -1,0 +1,211 @@
+html,body{
+  background-color: #f7f7f7;
+  height: 100%;
+}
+
+footer{
+  background-color: #efebf9;
+}
+
+.center-content{
+  height: 100%;
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+}
+
+#landing-page{
+  background-image: url("/FileHosting/assets/image/illustration/landing_background.png");
+  background-color: #000019;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.h-account{
+  border-bottom: 2px solid #ABABAB !important;
+  padding: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 24px;
+}
+
+p{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.fa{
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa:hover{
+  opacity: 0.7;
+}
+.fa-facebook{
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter{
+  background: #55ACEE;
+  color: white;
+}
+
+.btn{
+  border-radius: 50px;
+}
+
+.btn-green{
+  background-color: #84b749;
+  border-color: #84b749;
+  color: white;
+}
+.btn-green:focus{
+  box-shadow: 0 0 0 0.2rem rgba(132,183,73);
+}
+.btn-green:hover{
+  background-color: #9ED163;
+}
+
+.btn-orange{
+  background-color: #f7941e;
+  border-color: #f7941e;
+  color: white;
+}
+.btn-orange:focus{
+  box-shadow: 0 0 0 0.2rem rgba(247,148,30);
+}
+.btn-orange:hover{
+  background-color: #FFAE38;
+}
+
+.btn-purple{
+  background-color: #402675;
+  border-color: #402675;
+  color: white;
+}
+.btn-purple:focus{
+  box-shadow: 0 0 0 0.2rem rgba(64,38,117);
+}
+.btn-purple:hover{
+  background-color: #5A408F;
+}
+
+.btn-cyan{
+  background-color: #2ec3bd;
+  border-color: #2ec3bd;
+  color: white;
+}
+.btn-cyan:focus{
+  box-shadow: 0 0 0 0.2rem rgba(46,195,189);
+}
+.btn-cyan:hover{
+  background-color: #48DDD7;
+}
+
+.btn-teal{
+  background-color: #20c997;
+  border-color: #20c997;
+  color: white;
+}
+.btn-teal:focus{
+  box-shadow: 0 0 0 0.2rem rgba(32,201,151);
+}
+.btn-teal:hover{
+  background-color: #3AE3B1;
+}
+
+.btn-outline-cyan {
+  color: #2ec3bd;
+  background-color: transparent;
+  background-image: none;
+  border-color: #2ec3bd;
+}
+.btn-outline-cyan:focus {
+  box-shadow: 0 0 0 0.2rem rgba(46,195,189);
+}
+.btn-outline-cyan:hover {
+  color: #fff;
+  background-color: #2ec3bd;
+  border-color: #2ec3bd;
+}
+
+.login-form-header{
+  background-color: #333240;
+  color: white;
+}
+.login-form-body{
+  background-color: #4CA3D1;
+  color: white;
+}
+.login-form-body small{
+  color: white !important;
+}
+
+.card-header-account{
+  background-color: #337ab7;
+  color: white;
+}
+.card-body-account{
+  background-color: #4CA3D1;
+  color: white;
+}
+.card-footer-account{
+  background-color: #19709e;
+  color: white;
+}
+.border-account{
+  border-width: medium !important;
+  border-color: #1D2031 !important;
+}
+.border-account:hover{
+  border-color: #6A6D7E !important;
+  box-shadow: 1px 1px 20px 10px #333240;
+}
+
+.thead-filehosting{
+  color: #84b749;
+}
+.table-filehosting tbody tr{
+  background-color: #efebf9;
+}
+.table-striped-filehosting tbody tr:nth-of-type(odd){
+  background-color: #F3F8ED;
+}
+.table-hover-filehosting tbody tr:hover{
+  background-color: #e6f3f9;
+}
+
+.pagination-first {
+  color: white !important;
+  background-color: #48DDD7 !important;
+}
+.pagination-previous {
+  color: white !important;
+  background-color: #3AE3B1 !important;
+}
+.pagination-next {
+  color: white !important;
+  background-color: #3AE3B1 !important;
+}
+.pagination-last {
+  color: white !important;
+  background-color: #48DDD7 !important;
+}
+.pagination-page-link {
+  color: white !important;
+  background-color: #5A408F !important;
+}
+.pagination-page-link-current {
+  color: white !important;
+  background-color: #9ED163 !important;
+}
